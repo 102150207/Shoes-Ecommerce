@@ -1,0 +1,1 @@
+var footerComponent = ()=> console.log("hello init footer component ... !")

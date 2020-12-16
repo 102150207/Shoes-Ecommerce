@@ -1,0 +1,1 @@
+var initHelper = () => console.log("init Helper ... !!!")

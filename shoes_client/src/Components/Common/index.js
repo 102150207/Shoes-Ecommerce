@@ -1,0 +1,1 @@
+var initCommon = () => console.log("init common .... !!!")

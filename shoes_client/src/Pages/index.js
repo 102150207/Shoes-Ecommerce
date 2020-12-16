@@ -1,0 +1,1 @@
+const initPages = () => console.log(`${'This is Pages'}`)

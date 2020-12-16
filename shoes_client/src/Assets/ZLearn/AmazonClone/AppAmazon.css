@@ -1,0 +1,22 @@
+.body__content {
+    height: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 150px;
+    background: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 500px) { 
+    .body__content {
+        top: 50;
+    }
+}
+
+@media (max-width: 1000px) {
+    .body__content {
+        top: 109px;
+    }
+}
+

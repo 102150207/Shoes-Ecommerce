@@ -1,0 +1,1 @@
+var initStore = ()=> console.log('init Store ... !!!')

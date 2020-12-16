@@ -1,0 +1,243 @@
+.header {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.top__image_sale  {
+    width: 100%;
+}
+
+.image__sale{
+    width: 100%;
+}
+
+.header__main {
+    height: 50px;
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    /* background: rgb(78, 255, 24); */
+}
+
+.header__lolo__search {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.image__logo {
+    height: 35px;
+}
+
+.search__box {
+    width: 470px;
+}
+
+.search__form {
+    display: flex;
+    border: 2px solid rgb(24, 158, 255);
+    border-radius: 5px;
+}
+
+.input__search {
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+
+.button__search {
+    display: flex;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+    width: 100px;
+    background: rgb(24, 158, 255);
+}
+
+.title__search{
+    width: 100px;
+    font-family: Impact, Charcoal, sans-serif;
+    color: rgb(237, 238, 242);
+}
+
+.item__headers {
+    display: flex;
+    width: 40%;
+    justify-content: center;
+}
+
+/* Item header same as order and delivery */
+
+.notification__for__user {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.follow__order {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.feature__signup__signin {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.count__order {
+    display: flex;
+    align-items: center;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.title__order {
+    display: flex;
+    align-items: center;
+}
+
+.title__order__two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    color: rgba(12, 10, 10, 0.952); 
+    background: yellow;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgb(252, 235, 1);
+    border-radius: 5px;
+}
+
+.title__line {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.title__line__one .title__line__two {
+    font-weight: 400
+}
+
+.header__category {
+    height: 50px;
+    width: 100%;
+    margin-top: 0px;
+    border-bottom: 2px solid yellow;
+    border-radius: 5px;
+}
+
+@media (max-width: 1250px) {
+    .header__lolo__search {
+        width: 51%;
+    }
+
+    .item__headers {
+        width: 49%;
+    }
+}
+
+
+@media (max-width: 1000px) {
+
+    .header {
+        height: 108px;
+    }
+
+    .search__box {
+        margin-bottom: 5px;
+        margin-right: 15px;
+        margin-top: 5px;
+    }
+
+    .header__main {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .header__lolo__search {
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .search__form {
+        margin-left: 5px;
+    }
+
+    .item__headers {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .header {
+        height: 49px;
+    }
+
+    .header__lolo__search {
+        position: fixed;
+        z-index: 1;
+        background: rgba(193, 193, 197, 0.856);
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .item__headers {
+        position: fixed;
+        bottom: 0;
+        margin-bottom: 2px;
+        z-index: 1;
+        background: rgba(193, 193, 197, 0.856);
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .top__image_sale {
+        display: none;
+    }
+
+    .logo__app {
+        display: none;
+    }
+
+    .search__form {
+        margin-left: 0px;
+    }
+
+    .title__line {
+        display: none;
+    }
+
+    .title__order__one {
+        display: none;
+    }
+
+    .title__search {
+        display: none;
+    }
+
+    .button__search  {
+        width: 40px;
+    }
+
+}

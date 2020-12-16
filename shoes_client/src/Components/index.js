@@ -1,0 +1,1 @@
+var initComponent = ()=> console.log("hello the first component .... !!!")
